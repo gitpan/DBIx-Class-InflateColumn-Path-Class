@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Path::Class;
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 sub register_column {
   my ($self, $column, $info, @rest) = @_;
@@ -35,6 +35,7 @@ __END__;
 =head1 NAME
 
 DBIx::Class::InflateColumn::Path::Class
+inflate / deflate values into Path::Class::File or Path::Class::Dir objects
 
 =head1 SYNOPSIS
 
